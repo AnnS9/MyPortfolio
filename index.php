@@ -1,0 +1,554 @@
+<html lang="en">
+
+<head>
+  <meta name="robots" content="index, follow">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap 5 JS (No need for jQuery or Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://www.javascript-coder.com/form-validation/gen_validatorv4.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <meta name="title" content="Anna | Front End Web Developer Portfolio | Edinburgh, UK">
+<meta name="description" content="Front-end web developer based in Edinburgh, Scotland, specializing in responsive design with HTML, CSS, JavaScript, and React. View my projects and resume.">
+<meta name="keywords" content="front end developer portfolio, freelance web developer, web developer resume, junior web developer, html css javascript developer, wordpress developer portfolio, responsive web design, website design, web development edinburgh, hire web developer uk, scotland web developer, bespoke website design">
+
+<meta name="author" content="Anna – Front End Web Developer | HTML, CSS, JavaScript, React">
+
+  <<meta property="og:type" content="website">
+<meta property="og:url" content="https://annawebdev.com/">
+<meta property="og:title" content="Anna | Web Developer Portfolio | Scotland, UK">
+<meta property="og:description" content="Creative web developer helping businesses grow online with custom website design. Based in Edinburgh, UK – available for freelance and full-time roles.">
+<meta property="og:image" content="https://annawebdev.com/img/website5.png">
+
+
+  <!-- Google tag (gtag.js) -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T9KMTLP6');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HJDRGP8EXT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HJDRGP8EXT');
+</script>
+  <title>Anna Sikora | Full Stack Web Developer Scotland</title>
+  <link rel="icon" type="image/x-icon" href="../img/logo-fav.png">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Anna Sikora",
+  "url": "https://annawebdev.com",
+  "image": "https://annawebdev.com/img/website5.png",
+  "email": "mailto:annasoul.webdev@gmail.com",
+  "jobTitle": "Front End Web Developer",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Anna Web Dev"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/anna-sikora-webdev/",
+    "https://github.com/AnnS9",
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Edinburgh",
+    "addressRegion": "Scotland",
+    "addressCountry": "United Kingdom"
+  }
+}
+</script>
+
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T9KMTLP6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+  <nav class="navbar navbar-expand-sm fixed-top bg-dark">
+    <div class="container-fluid navigation">
+      <a class="navbar-brand ms-3" href="https://annawebdev.com">
+        <img src="img/logo.png" alt="web development design website freelance scotland edinburgh anna sikora" width="40" height="40">
+      </a>
+      <button class="navbar-toggler first-button  ms-auto" type="button" data-bs-toggle="collapse" data-mdb-target="#navbarToggleExternalContent9"
+        aria-controls="navbarToggleExternalContent9" aria-expanded="false" aria-label="Toggle navigation" data-bs-target="#collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <div class="animated-icon1"><span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+
+      <div id="collapse" class="collapse navbar-collapse navbarToggleExternalContent9 justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="https://annawebdev.com/#aboutme">About</a></li>
+          <li class="nav-item"><a href="https://annawebdev.com/#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="https://annawebdev.com/#contact">Contact</a></li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <section class="home">
+    <div class="container">
+      <div class="row align-items-center d-flex justify-content-between">
+        <div class="col-12 col-md-6 pb-5 order-2 order-sm-2 hero-txt">
+          <h1 class=" text-white font-weight-bold mb-3 mt-2 reveal fade-bottom animate-charcter">Hi,<br>I'm Anna</h1>
+          <p class="lead text-white reveal fade-bottom">Web developer passionate about design.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container  d-flex justify-content-center mt-5 mb-5 reveal fade-bottom ">
+      <h2>SKILLS</h2>
+    </div>
+    <div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/html.png" alt="HTML5" width="100" height="120">
+            <h5 class="mt-2">HTML5</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/css.png" alt="CSS" width="100" height="120">
+            <h5 class="mt-2">CSS</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/javascript.png" alt="JavaScript" width="120" height="120">
+            <h5 class="mt-2">JavaScript</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/bootstrap.png" alt="Bootstrap" width="120" height="120">
+            <h5 class="mt-2">Bootstrap</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/python.png" alt="Python" width="120" height="120">
+            <h5 class="mt-2">Python</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/PHP.png" alt="PHP" width="150" height="120">
+            <h5 class="mt-2">PHP</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/drupal.png" alt="Drupal" width="120" height="120">
+            <h5 class="mt-2">Drupal</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/mysql.png" alt="MySQL" width="120" height="120">
+            <h5 class="mt-2">MySQL</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/WordP.svg.png" alt="WordPress" width="120" height="120">
+            <h5 class="mt-2">WordPress</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/figma.png" alt="Figma" width="120" height="120">
+            <h5 class="mt-2">Figma</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/ai.png" alt="Adobe Illustrator" width="120" height="120">
+            <h5 class="mt-2">Adobe Illustrator</h5>
+        </div>
+        <div class="col-6 col-md-3 mb-4">
+            <img src="img/pd.svg" alt="Adobe Photoshop" width="120" height="120">
+            <h5 class="mt-2">Adobe Photoshop</h5>
+        </div>
+    </div>
+</div>
+
+    
+
+  </section>
+
+  <section id="aboutme" class="py-5">
+    <div class="container text-center reveal fade-bottom">
+        <h2 class="fw-bold">ABOUT ME</h2>
+    </div>
+
+    <div class="container mt-4">
+        <p class="text-center mx-auto w-75">
+            I'm Anna Sikora, web developer based in Edinburgh, Scotland. Passionate about technology and design, I specialize in crafting engaging, functional, and bespoke websites. My focus isn’t just on building websites—it’s on creating digital experiences that drive success.
+        </p>
+
+        <div class="row mt-5">
+            <!-- Design Section -->
+            <div class="col-sm-12 col-md-6 text-center px-4">
+                <h3 class="fw-bold">DESIGN</h3>
+                <p>
+                    Great design is more than just aesthetics—it’s about creating intuitive, user-friendly experiences that leave a lasting impression. I focus on clean, modern, and responsive designs that adapt seamlessly across all devices.
+                </p>
+            </div>
+
+            <!-- Development Section -->
+            <div class="col-sm-12 col-md-6 text-center px-4">
+                <h3 class="fw-bold">DEVELOPMENT</h3>
+                <p>
+                    From front-end styling to back-end functionality, I bring websites to life with clean, efficient code. Whether it's a custom-built site or a dynamic WordPress project, I ensure performance, scalability, and smooth user interactions.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+  <section id="portfolio">
+
+
+  <div class="container mt-5">
+    <!-- Portfolio Heading -->
+    <div class="text-center mt-5 reveal fade-bottom">
+        <h2 class="fw-bold">PORTFOLIO</h2>
+        <p class="mt-3">A selection of my projects, including web development, design, and video editing.</p>
+    </div>
+
+    <!-- Portfolio Grid -->
+    <div class="row g-4 mt-4 justify-content-center">
+        <!-- Project Cards -->
+         <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEBSITE - Client Project</p>
+                <h3 class="grid__title">Beauty Studio - WORDPRESS</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://aestheticsbynatalia.com')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEBSITE - College Project</p>
+             
+                <h3 class="grid__title">Shop and Cafe - REACT</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://organicuni.netlify.app/')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEB APP - Honours Project</p>
+                <h3 class="grid__title">Adrenaline Sports Platform - REACT FLASK</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://adrenalink-uni-1.onrender.com')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEBSITE - College Project</p>
+                <h3 class="grid__title">Tourist Place - HTML CSS</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://anns9.github.io/Newhailes-Web/index.html')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Client & Advanced Projects -->
+       
+<div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card overlay1 text-center">
+                <p class="cardtxt">DESIGN - Univeristy Project</p>
+                
+                <h3 class="grid__title">Ice Cream Shop - FIGMA </h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://www.figma.com/proto/hhIFqwZ6PdQvRtdsbBEYl0/Mama-s-Ice-cream?node-id=6-902&starting-point-node-id=6%3A902&t=ZXdwaZVEEAu3AyPK-1')">View More</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEBSITE - Graded Unit Project</p>
+                <h3 class="grid__title">Speciality Cafe - PHP</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://elixircoffee.annawebdev.com')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">WEB APP - University Project</p>
+                <h3 class="grid__title">Voting App - PHYTON FLASK</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://eventpuls.onrender.com')">View More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card text-center">
+                <p class="cardtxt">VIDEO EDIT - Drone Video, etc.</p>
+                <h3 class="grid__title">YouTube Channel</h3>
+                <div class="overlay">
+                    <button class="viewbutton" onclick="window.open('https://www.youtube.com/@AnnaS-ro1wv/videos')">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  </section>
+
+
+
+  <section id="contact">
+    <div class="container mt-5 d-flex justify-content-center mt-5 reveal fade-bottom">
+      <h2>CONTACT</h2>
+    </div>
+    <div class="container mb-5">
+      <div class="row  mt-5">
+
+        <div class="col-sm-12 col-md-6  d-flex justify-content-center">
+          <div id="social-test">
+            <h4>Connect with me</h4>
+            <ul class="social mt-4">
+              <li class="social" onclick="window.open('https://www.facebook.com/profile.php?id=100090089077566')"><i class="fa fa-facebook" aria-hidden="true"></i></li>
+              <li class="social" onclick="window.open('https://www.instagram.com/anna_soul_webdev/')"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+              <li class="social" onclick="window.open('https://www.linkedin.com/in/anna-sikora-0367a919a')"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+              <li class="social" onclick="window.open('https://github.com/AnnS9')"><i class="fa fa-github" aria-hidden="true"></i>
+              </li>
+
+            </ul>
+            <h4>Email me</h4>
+            <p class="contact mb-5">annasoul.webdev@gmail.com</p>
+          </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 ">
+
+          <div class="container contact-form">
+
+            <form class="form-horizontal" method="post" name="contact_form" action="index.php">
+              <div class="form-group ">
+
+                <div class="col-auto">
+                  <input type="text" id="Name" name="Name" class="form-control form-control-lg" placeholder="NAME" required>
+                </div>
+              </div>
+
+              <div class="form-group mt-4">
+
+                <div class="col-auto">
+                  <input type="email" id="Email" name="Email" class="form-control form-control-lg" placeholder="EMAIL" required>
+                </div>
+              </div>
+
+              <div class="form-group mt-4">
+
+                <textarea id="Message" name="Message" class="form-control" placeholder="MESSAGE" rows="3"></textarea>
+              </div>
+              <input type="text" id="website" name="website">
+              <button type="submit" name="send" class="btn-form mt-4 mb-2" id="submit">SEND</button>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+
+   <div id="thankyouModal" class="modal fade" tabindex="-1" aria-labelledby="thankyouModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="thankyouModalLabel">Message sent!</h5>
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for getting in touch.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  <section id="cookies" style="display: none;">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="cookies d-flex justify-content-between align-items-center flex-wrap">
+          <p class="cookie mb-2 mb-md-0">
+            This website uses cookies to ensure you get the best experience on my website.
+            <a href="https://www.termsfeed.com/live/4881f9cd-908d-4a27-b022-5c0f933f9b9a" target="_blank" rel="noopener noreferrer">More info</a>
+          </p>
+          <button id="cookies-button" class="btn btn-primary">That's fine</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Copyright -->
+<footer>
+  <p class="copyright text-center">&copy; 2025 Anna Sikora. All rights reserved.</p>
+</footer>
+
+                    <?php
+if (!empty($_POST['website'])) die(); // Stop form submission if bot detection is triggered
+
+if (isset($_POST['Email'])) {
+    $email_to = "annasoul.webdev@gmail.com";
+    $email_subject = "Email from your portfolio";
+
+    $name = $_POST['Name']; // required
+    $email = $_POST['Email']; // required
+    $message = $_POST['Message']; // required
+
+    // Sanitize form data to prevent malicious input
+    function clean_string($string) {
+        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
+        return str_replace($bad, "", $string);
+    }
+
+    $email_message = "Name: " . clean_string($name) . "\n";
+    $email_message .= "Email: " . clean_string($email) . "\n";
+    $email_message .= "Message: " . clean_string($message) . "\n";
+
+    // Email headers
+    $headers = 'From: ' . $email . "\r\n" .
+        'Reply-To: ' . $email . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
+
+    // Send the email
+    @mail($email_to, $email_subject, $email_message, $headers);
+
+    // Trigger modal after form submission
+    echo "<script>
+        $(document).ready(function() {
+            $('#thankyouModal').modal('show');
+        });
+    </script>";
+}
+?>
+<?php
+    if (isset($_POST['Email'])) {
+        echo "<script>
+            $(window).on('load', function(){
+                $('#thankyouModal').modal('show');
+            });
+        </script>";
+    }
+    ?>
+                 
+                    <script>
+var frmvalidator  = new Validator("contact_form");
+frmvalidator.addValidation("Name","req","Please provide your name");
+frmvalidator.addValidation("Email","req","Please provide your email");
+frmvalidator.addValidation("Email","Email",
+  "Please enter a valid email address");
+</script>
+<script>
+  
+    let spinnerWrapper = document.querySelector('.spinner-wrapper');
+
+window.addEventListener('load', function () {
+   // spinnerWrapper.style.display = 'none';
+   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+});
+
+$('.navTrigger').click(function () {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+
+});
+</script>
+
+
+
+<script>
+   function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 100;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+window.addEventListener("scroll", reveal);
+
+document.querySelector('.first-button').addEventListener('click', function () {
+
+document.querySelector('.animated-icon1').classList.toggle('open');
+});
+
+
+</script>
+<script>
+  // Set a cookie
+  const setCookie = (cName, cValue, expDays) => {
+    let date = new Date();
+    date.setTime(date.getTime() + (expDays * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + date.toUTCString();
+    document.cookie = cName + "=" + cValue + "; " + expires + "; path=/";
+  };
+
+  // Get a cookie
+  const getCookie = (cName) => {
+    const name = cName + "=";
+    const cDecoded = decodeURIComponent(document.cookie);
+    const cArr = cDecoded.split("; ");
+    for (let i = 0; i < cArr.length; i++) {
+      if (cArr[i].indexOf(name) === 0) {
+        return cArr[i].substring(name.length); //
+      }
+    }
+    return null;
+  };
+
+  // Accept button logic
+  document.querySelector("#cookies-button").addEventListener("click", () => {
+    document.querySelector("#cookies").style.display = "none";
+    setCookie("cookieConsent", "true", 30);
+  });
+
+  // Show banner if cookie not present
+  const cookieMessage = () => {
+    if (!getCookie("cookieConsent")) {
+      document.querySelector("#cookies").style.display = "block"; // <-- fixed typo: `dispay` → `display`
+    }
+  };
+
+  // Run on page load
+  window.addEventListener("load", cookieMessage);
+</script>
+
+</body>
+</html>
