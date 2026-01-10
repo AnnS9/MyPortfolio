@@ -26,7 +26,7 @@
 
 <meta name="author" content="Anna – Front End Web Developer | HTML, CSS, JavaScript, React">
 
-  <<meta property="og:type" content="website">
+  <meta property="og:type" content="website">
 <meta property="og:url" content="https://annawebdev.com/">
 <meta property="og:title" content="Anna | Web Developer Portfolio | Scotland, UK">
 <meta property="og:description" content="Creative web developer helping businesses grow online with custom website design. Based in Edinburgh, UK – available for freelance and full-time roles.">
@@ -55,8 +55,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Anna Sikora",
-  "url": "https://annawebdev.com",
-  "image": "https://annawebdev.com/img/website5.png",
+
   "email": "mailto:annasoul.webdev@gmail.com",
   "jobTitle": "Front End Web Developer",
   "worksFor": {
@@ -87,7 +86,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   <nav class="navbar navbar-expand-sm fixed-top bg-dark">
     <div class="container-fluid navigation">
-      <a class="navbar-brand ms-3" href="https://annawebdev.com">
+      <a class="navbar-brand ms-3" href="annawebdev">
         <img src="img/logo.png" alt="web development design website freelance scotland edinburgh anna sikora" width="40" height="40">
       </a>
       <button class="navbar-toggler first-button  ms-auto" type="button" data-bs-toggle="collapse" data-mdb-target="#navbarToggleExternalContent9"
@@ -101,9 +100,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div id="collapse" class="collapse navbar-collapse navbarToggleExternalContent9 justify-content-end">
         <ul class="navbar-nav">
-          <li class="nav-item"><a href="https://annawebdev.com/#aboutme">About</a></li>
-          <li class="nav-item"><a href="https://annawebdev.com/#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a href="https://annawebdev.com/#contact">Contact</a></li>
+          <li class="nav-item"><a href="#aboutme">About</a></li>
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
 
         </ul>
 
@@ -336,62 +335,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </li>
 
             </ul>
-            <h4>Email me</h4>
-            <p class="contact mb-5">annasoul.webdev@gmail.com</p>
+            <a href="mailto:annasoul.webdev@gmail.com" class="btn btn-primary">
+  Email me
+</a>
           </div>
         </div>
 
 
         <div class="col-sm-12 col-md-6 ">
 
-          <div class="container contact-form">
-
-            <form class="form-horizontal" method="post" name="contact_form" action="index.php">
-              <div class="form-group ">
-
-                <div class="col-auto">
-                  <input type="text" id="Name" name="Name" class="form-control form-control-lg" placeholder="NAME" required>
-                </div>
-              </div>
-
-              <div class="form-group mt-4">
-
-                <div class="col-auto">
-                  <input type="email" id="Email" name="Email" class="form-control form-control-lg" placeholder="EMAIL" required>
-                </div>
-              </div>
-
-              <div class="form-group mt-4">
-
-                <textarea id="Message" name="Message" class="form-control" placeholder="MESSAGE" rows="3"></textarea>
-              </div>
-              <input type="text" id="website" name="website">
-              <button type="submit" name="send" class="btn-form mt-4 mb-2" id="submit">SEND</button>
-
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid d-flex justify-content-center">
-
-   <div id="thankyouModal" class="modal fade" tabindex="-1" aria-labelledby="thankyouModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="thankyouModalLabel">Message sent!</h5>
-                    <!-- Close Button -->
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <p>Thank you for getting in touch.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-  <section id="cookies" style="display: none;">
+          <section id="cookies" style="display: none;">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -411,79 +364,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <footer>
   <p class="copyright text-center">&copy; 2025 Anna Sikora. All rights reserved.</p>
 </footer>
-
-                    <?php
-if (!empty($_POST['website'])) die(); // Stop form submission if bot detection is triggered
-
-if (isset($_POST['Email'])) {
-    $email_to = "annasoul.webdev@gmail.com";
-    $email_subject = "Email from your portfolio";
-
-    $name = $_POST['Name']; // required
-    $email = $_POST['Email']; // required
-    $message = $_POST['Message']; // required
-
-    // Sanitize form data to prevent malicious input
-    function clean_string($string) {
-        $bad = array("content-type", "bcc:", "to:", "cc:", "href");
-        return str_replace($bad, "", $string);
-    }
-
-    $email_message = "Name: " . clean_string($name) . "\n";
-    $email_message .= "Email: " . clean_string($email) . "\n";
-    $email_message .= "Message: " . clean_string($message) . "\n";
-
-    // Email headers
-    $headers = 'From: ' . $email . "\r\n" .
-        'Reply-To: ' . $email . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
-
-    // Send the email
-    @mail($email_to, $email_subject, $email_message, $headers);
-
-    // Trigger modal after form submission
-    echo "<script>
-        $(document).ready(function() {
-            $('#thankyouModal').modal('show');
-        });
-    </script>";
-}
-?>
-<?php
-    if (isset($_POST['Email'])) {
-        echo "<script>
-            $(window).on('load', function(){
-                $('#thankyouModal').modal('show');
-            });
-        </script>";
-    }
-    ?>
-                 
-                    <script>
-var frmvalidator  = new Validator("contact_form");
-frmvalidator.addValidation("Name","req","Please provide your name");
-frmvalidator.addValidation("Email","req","Please provide your email");
-frmvalidator.addValidation("Email","Email",
-  "Please enter a valid email address");
-</script>
-<script>
-  
-    let spinnerWrapper = document.querySelector('.spinner-wrapper');
-
-window.addEventListener('load', function () {
-   // spinnerWrapper.style.display = 'none';
-   spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-});
-
-$('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-
-});
-</script>
-
 
 
 <script>
