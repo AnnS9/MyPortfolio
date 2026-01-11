@@ -425,7 +425,16 @@ nav.opened .btn-hamburger span:nth-child(3) {
 .mt-5{
     margin-top: 100px !important;
 }
-
+.btn-primary{
+    background-color: #B843A5 !important;
+    border: none !important;
+    padding: 10px 15px 10px 15px !important;
+    font-size: 18px !important;
+    border: solid 1px #B843A5 !important;
+    border-radius: 0% !important;
+    color:rgb(214, 211, 211) !important;
+    
+}
 
 /* CONTACT */
 .contact-section{
