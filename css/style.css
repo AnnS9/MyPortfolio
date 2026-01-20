@@ -79,7 +79,7 @@ body {
   background-color: #000000;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-x: hidden; 
 }
 
 /* Container for logo, padding set */
@@ -361,7 +361,7 @@ nav.opened .btn-hamburger span:nth-child(3) {
    }
     .container a {
         display: inline-block;
-        vertical-align: top; /* Adjust if multi-line text */
+        vertical-align: top; 
         margin: 10px;
         padding: 5px;
         width: 120px;
@@ -378,8 +378,8 @@ nav.opened .btn-hamburger span:nth-child(3) {
         display: block;
     }
   .skillicon{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 /* Sliding text */
 .reveal {
@@ -408,7 +408,7 @@ nav.opened .btn-hamburger span:nth-child(3) {
   }
 .design{
     padding: 60px;
-    background: url(img/designicon.png);
+    background: url(../img/designicon.png);
     background-position: left-top;
     background-size:120px;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ nav.opened .btn-hamburger span:nth-child(3) {
 
 .dev{
     padding: 60px;
-    background-image: url(img/devicon.png);
+    background-image: url(../img/devicon.png);
     background-position: left-top;
     background-size:120px;
     background-repeat: no-repeat;
