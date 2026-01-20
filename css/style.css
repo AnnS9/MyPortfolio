@@ -359,28 +359,34 @@ nav.opened .btn-hamburger span:nth-child(3) {
    p{
     font-size: 20px;
    }
-    .container a {
-        display: inline-block;
-        vertical-align: top; 
-        margin: 10px;
-        padding: 5px;
-        width: 120px;
-        color: #333;
-        text-align: center;
-        text-decoration: none;
-    }
-    .container a img.iconi {
-        display: block;
-        margin: auto;
-        border: 0;
-    }
-    .container a span {
-        display: block;
-    }
-  .skillicon{
-    width: 100px;
-    height: 100px;
-  }
+   .skill-box {
+    /* Optional: adds a hover effect */
+    transition: transform 0.3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-5px);
+}
+
+.skillicon {
+    /* 1. Make them smaller (adjust 60px to preference) */
+    width: 60px; 
+    height: 60px; 
+    
+    /* 2. Ensures non-square logos (like PHP/MySQL) don't get squashed */
+    object-fit: contain; 
+    
+    /* 3. Center align */
+    display: block;
+    margin: 0 auto;
+}
+
+.skill-title {
+    /* 4. Make text closer to image and slightly smaller */
+    margin-top: 8px; 
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* Sliding text */
 .reveal {
     position: relative;
