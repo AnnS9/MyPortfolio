@@ -369,20 +369,16 @@ nav.opened .btn-hamburger span:nth-child(3) {
 }
 
 .skillicon {
-    /* 1. Make them smaller (adjust 60px to preference) */
+  
     width: 60px; 
     height: 60px; 
-    
-    /* 2. Ensures non-square logos (like PHP/MySQL) don't get squashed */
     object-fit: contain; 
-    
-    /* 3. Center align */
     display: block;
     margin: 0 auto;
 }
 
 .skill-title {
-    /* 4. Make text closer to image and slightly smaller */
+    
     margin-top: 8px; 
     font-size: 1rem;
     font-weight: 600;
