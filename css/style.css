@@ -378,10 +378,9 @@ nav.opened .btn-hamburger span:nth-child(3) {
 }
 
 .skill-title {
-    
-    
     font-size: 1rem;
     font-weight: 600;
+    
 }
 /* Sliding text */
 .reveal {
@@ -569,13 +568,13 @@ nav.opened .btn-hamburger span:nth-child(3) {
     font-size: 36px;
     color: #ecb6e3;
     font-weight: bold;
-    padding-top: 25%;
+    padding-top: 10%;
     
   }
   @media screen and (max-width: 768px) {
   h5 {
     font-size: 24px;
-    padding-top: 15%; /* Adjust padding if necessary for mobile */
+    padding-top: 10%; 
   }
 }
   h1 {
