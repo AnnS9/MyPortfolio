@@ -168,7 +168,7 @@ nav .btn-hamburger {
   cursor: pointer;
   outline: none;
   transform: translateY(-50%);
-  z-index: 3; /* Ensure it's above other elements */
+  z-index: 3; 
 }
 
 nav .btn-hamburger span {
@@ -475,12 +475,12 @@ nav.opened .btn-hamburger span:nth-child(3) {
     
   }
  .from-control.form-control-lg::placeholder {
-  color: rgba(235, 235, 235, 0.7); /* Light gray with good contrast */
-  opacity: 1;                      /* Ensures full visibility */
+  color: rgba(235, 235, 235, 0.7); 
+  opacity: 1;                      
 }
 .form-control::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Light color for dark background */
-  opacity: 1;                      /* Ensure full visibility */
+  color: rgba(255, 255, 255, 0.7); 
+  opacity: 1;                      
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
