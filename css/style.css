@@ -418,6 +418,9 @@ nav.opened .btn-hamburger span:nth-child(3) {
     background-repeat: no-repeat;
 
 }
+.mt-3{
+    text-align: center;
+}
 
 .dev{
     padding: 60px;
