@@ -616,7 +616,7 @@ nav.opened .btn-hamburger span:nth-child(3) {
   }
   .cardtxt {
   position: absolute;
-  font-size: 18px;
+  font-size: 16px;
   top: 10%;
   left: 50%;
   transform: translateX(-50%);
