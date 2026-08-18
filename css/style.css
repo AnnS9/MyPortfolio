@@ -366,11 +366,11 @@ nav.opened .btn-hamburger span:nth-child(3) {
 .skill-box:hover {
     transform: translateY(-5px);
 }
-p{
-    /*font-size: 20px;
-    line-height: 1.7;
-    max-width: 65ch;
-    */
+#portfolio p {
+    text-align: center !important;
+    margin: 0 auto;
+}
+
 .skillicon {
   
     width: 100px; 
@@ -666,20 +666,20 @@ p{
         }
 
         .btn-close {
-            background-color: white; /* White close button */
+            background-color: white; 
             color: black;
             border-radius: 50%;
         }
 
         .modal-footer {
-            background-color: #ff007f; /* Pink footer */
+            background-color: #ff007f; 
         }
 
         .modal-body {
             color: white;
         }
 
-        /* Optional: Add pink hover effect for modal close button */
+ 
         .btn-close:hover {
             background-color: #ff007f;
             color: white;
