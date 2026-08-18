@@ -356,11 +356,7 @@ nav.opened .btn-hamburger span:nth-child(3) {
     .hero-txt{
       padding-top: 25%;
     }
-   p{
-    font-size: 20px;
-    line-height: 1.7;
-    max-width: 65ch;
-    
+   
    }
    .skill-box {
   
@@ -370,7 +366,11 @@ nav.opened .btn-hamburger span:nth-child(3) {
 .skill-box:hover {
     transform: translateY(-5px);
 }
-
+p{
+    /*font-size: 20px;
+    line-height: 1.7;
+    max-width: 65ch;
+    */
 .skillicon {
   
     width: 100px; 
