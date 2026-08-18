@@ -327,6 +327,20 @@ nav.opened .btn-hamburger span:nth-child(3) {
     .hero-txt{
       padding-top: 25%;
     }
+#aboutme p {
+    color: #cccccc; 
+    font-weight: 400;
+}
+
+
+#aboutme p.fw-bold {
+    color: #ffffff; 
+}
+
+#aboutme h2, 
+#aboutme h3 {
+    color: #ffffff; 
+}
     @media screen and (max-width: 600px) {
       h1{
         font-size: 45px !important;
